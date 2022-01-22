@@ -1,0 +1,170 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+   
+    
+}
+.logo{
+    width: 40px;
+    padding-right: 10px;
+}
+.navigation h2{
+    color: rgb(179, 174, 174);
+    font-size: 25px;
+    font-weight: 700;
+}
+.navigation span{
+    color: #00b39b;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    
+}
+.navigation ul{
+    display: inline-flex;
+    list-style: none;
+    color:rgb(179, 174, 174) ;
+}
+.navigation ul li{
+  
+    margin: 15px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color:rgb(179, 174, 174) ;
+    font-size: .9375rem;
+    font-weight: 400;
+    
+}
+.navigation ul li :hover {
+    color:#00b39b ;
+}
+#active{
+    color: #00b39b;
+}
+.main{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.main h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    padding-left: 300px;
+   padding-bottom: 200p;
+ 
+ 
+}
+.logo2{
+    padding-left: 600px;
+   padding-bottom: 100px;
+}
+  
+
+.card{
+   border: 1px solid white;
+width: 400px;
+
+margin: 100px;
+
+}
+.card2{
+    border: 1px solid white;
+    width: 400px;
+    margin: 100px;
+    
+ 
+   
+}
+.col{
+    display: flex;
+
+}
+.col p{
+    color:rgb(148, 143, 143) ;
+    
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+    
+.boxes{
+
+   display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px 50px;
+   
+    
+}
+.box1{
+    background-color:#00b39b ;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+   
+}
+
+
+.box1 h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+}
+   
+.box1 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.icon{
+    color: white;
+}
+.style-select{
+    width: 100%;
+    background-color:#00b39b ;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-top: 70px;
+} 
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    font-size: 20px;
+}
+
+
+
+
+    
+
